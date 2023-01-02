@@ -1,0 +1,250 @@
+/***************************
+* Responsive Media Queries
+****************************/
+/* MAX 992 */
+@media screen and (max-width:992px){
+     .center-item-area {
+          display: none
+     }
+     #logo-top {
+          display: none !important;
+     }
+     #welcome-area {
+          margin-right: 30px
+     }
+     #menu ul {
+         top:calc( 100% + 10px);
+          width: 113% !important;
+          right: -17px !important;
+     }
+
+     #left-sidebar {
+          margin-top: 40px;
+     }
+     .box.hasForm .author,
+     .box.hasForm .field,
+     .box.hasForm .avatar {
+          display: block !important;
+     }
+     .select2-hidden-accessible {
+          position: relative !important;
+     }
+     .box .body .profile .checkbox input {
+         position: relative;
+          right: -10px
+     }
+     .box.mailbox-details .head {
+            background: none !important;
+          }
+     .mailbox-details .profile  {
+         min-height: 150px !important;
+     }
+
+
+}
+
+/* MAX 768 */
+@media screen and (max-width:768px){
+    .menu-area .col-md-6{
+          margin: 0;
+          padding: 0
+     }
+     #menu ul {
+          width: 100%;
+          right: 0     
+     }
+     #welcome-area  {
+          float: right !important;
+          left: 0;
+           width: 100% ;
+          margin-top:20px;
+          border-top: 1px solid #f8f8f8;
+          padding-top: 10px
+     }
+     #welcome-area .links {
+          right: -40px;
+          width: 100% ;
+     }
+     #copyright .barcode {
+          display: none
+     }
+     #menu ul {
+          margin-top: 10px
+     }
+     .box .link.pull-left,
+     .box .link.pull-right {
+          float: none !important;;
+          text-align: center !important;
+          margin: 5px 0;
+               
+     }
+     .box.steps .body .avatar {
+          float: none !important;
+     }
+     .logo-area-pages {
+          background: #0095cd
+     }
+     .logo-area-pages #logos {
+          text-align: center;
+          margin: 0 auto
+     }
+     .logo-area-pages #logos .text li {
+          color: #fff;
+          font-size: 18px;
+     }
+     .inner-page-slider {
+          display: none
+     }
+     .menu-area {
+          height: 57px
+     }
+     #brands {
+          display: none
+     }
+
+
+
+}
+
+/* MAX 480 */
+@media screen and (max-width:480px){  
+     #myCarousel {
+          height: 700px
+     }
+     #myCarousel .item {
+          display: none
+     }
+     #myCarousel .carousel-indicators {
+          display: none
+     }
+     #logo-area a {
+          font-size: 25px;
+     }
+     #left-sidebar .level img {
+          width: 100%
+     }
+     #left-sidebar .contact a{
+          width: 200px !important;
+     }
+     .box .link.pull-left,
+     .box .link.pull-right {
+          display: block;
+          width: 100%
+     }
+     .box .body .basket p span {
+          float: none
+     }
+     .error-page a {
+          font-size: 15px;
+     }
+     .box .body .user img {
+          float: none
+     }
+}
+
+/* MAX 360 */
+@media screen and (max-width:360px){
+ 
+}
+
+/* MIN 992 */
+@media screen and (min-width:992px){
+   #foot-slider .left.carousel-control {
+    left:-95px;
+    top:-20px
+  }
+  #foot-slider .right.carousel-control {
+    right:-95px;
+    top:-20px
+  }
+     body {
+          overflow-x: hidden
+     }
+     .box .body .form .tags  {
+       width: 100% ;
+     }
+     .box .body .profile label {
+          width: 150px
+     }
+     .box .body .product .post .content {
+          position: relative;
+          top: -30px
+     }
+     .box .body .product .yellow {
+          position: relative;
+          top: -30px;
+     }
+     .logo-area-pages {
+          background: #22a3d4
+     }
+     .logo-area-pages #logos {
+         height: 40px;
+         position: relative
+       }
+     .logo-area-pages #logo {
+         position: absolute;
+         z-index: 9999;
+         top: -170px
+       }
+     .logo-area-pages #logos .text {
+         position: absolute;
+         z-index: 9999;
+         right: -210px;
+         top: -45px
+       }
+     .logo-area-pages #logos .text li {
+         margin: 10px 0;
+         text-align: left
+       }
+     .logo-area-pages #logos .text li:nth-child(1) {
+         color: #fff;
+         font-size: 18px;
+          text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em darkblue;
+       }
+     .logo-area-pages #logos .text li:nth-child(2) {
+         color: #fff;
+         font-size: 25px
+       }
+     .logo-area-pages #logos .text li:nth-child(3) {
+         font-size: 20px;
+          color: #22a3d4
+
+       }
+
+}
+
+/* MIN 768 */
+@media screen and (min-width:768px){
+  #mid-footer input{
+    width:250px;
+    font-size:12px;
+    font-weight:normal;
+       margin: 0 10px
+  }
+     #menu {
+          height: 50px;
+     }
+
+
+}
+
+/* MIN 480 */
+@media screen and (min-width:480px){
+
+}
+
+/* MIN 360 */
+@media screen and (min-width:360px){
+
+}
+
+/* Tablet Fix */
+@media screen and (min-width:480px) and (max-width:768px){
+
+}
+/* Old Monitor Fix */
+@media screen and (min-width:768px) and (max-width:1200px){
+ 
+}
+
+

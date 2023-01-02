@@ -1,0 +1,35 @@
+.error {
+    color: red;
+}
+
+select {
+    padding-bottom: 0px !important;
+}
+
+.ejavan_col {
+    margin-top: 28px;
+}
+
+.ejavan_badge {
+    margin-top: 0px !important;
+}
+
+.ejavan_title {
+    font-size: 20px;
+    background: #ecf0f5;
+    width: 38%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ejavan_grade {
+    background: #edc0004d;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ejavan_select_radio {
+    background: #f9fc86;
+    padding: 5px;
+    border-radius: 5px;
+}

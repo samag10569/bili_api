@@ -1,0 +1,78 @@
+.error {
+    color: red;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.refereshrecapcha img {
+    border-radius: 0px !important;
+}
+
+.loading img {
+    width: 30px !important;
+    height: 30px !important;
+    float: none;
+    padding: unset;
+}
+
+.ejavan-alert {
+    background: #22a3d4b3;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ejavan-other {
+    background: #22a3d4e6;
+    border-radius: 10px;
+}
+
+.ejavan-time {
+    float: left;
+}
+
+.ejavan-you {
+    background: #22a3d433;
+    border-radius: 10px;
+}
+
+.starRating:not(old) {
+    display: inline-block;
+    width: 7.5em;
+    height: 1.5em;
+    overflow: hidden;
+    vertical-align: bottom;
+    float: left;
+}
+
+.starRating:not(old) > input {
+    margin-right: -100%;
+    opacity: 0;
+}
+
+.starRating:not(old) > label {
+    display: block;
+    float: right;
+    position: relative;
+    background: url('star-off.svg');
+    background-size: contain;
+}
+
+.starRating:not(old) > label:before {
+    content: '';
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    background: url('star-on.svg');
+    background-size: contain;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+.starRating:not(old) > label:hover:before, .starRating:not(old) > label:hover ~ label:before, .starRating:not(:hover) > :checked ~ label:before {
+    opacity: 1;
+}
+
+.social-ejavan {
+    color: #1d5266;
+}

@@ -1,0 +1,22 @@
+#chart-detials {
+      background: hsl(206, 60%, 37%);
+  border: 1px solid #ddd;
+  width:60%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 5px;
+    direction: rtl;
+  text-align: right;
+  color: #fff
+}
+#chart-detials div {
+  display: inline-block;
+  direction: rtl;
+  text-align: right;
+}
+#chart-detials img {
+  border-radius: 5px !important;
+}
+svg image,svg g {
+  cursor: pointer
+}
